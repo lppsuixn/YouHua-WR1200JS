@@ -12,7 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
-# Install OpenClash
-git clone -b master https://github.com/vernesong/OpenClash.git OpenClash
-cp -r OpenClash/luci-app-openclash openwrt/package/lean/luci-app-openclash
 
